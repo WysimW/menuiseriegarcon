@@ -1,0 +1,223 @@
+/* Teclus Architecture and Renovation HTML5 Template */
+
+@media only screen and (max-width: 1140px){
+	
+	.main-header .header-container .outer-box{
+		margin:0px 15px;	
+	}
+	
+	.intro-section{
+		overflow:hidden;	
+	}
+	
+	.intro-section .popped-column,
+	.boxed-masonary .outer-container{
+		margin-top:0px;	
+	}
+	
+	.main-menu .navigation > li{
+		margin-right:15px;	
+	}
+	
+	.latest-blog .post-item .inner-box{
+		padding:20px;
+		overflow:hidden;	
+	}
+	
+	.latest-blog .post-item .inner-box .image-box{
+		position:relative;
+		margin-bottom:20px;
+		width:100%;
+	}
+	
+	.latest-blog .post-item .inner-box .image-box img{
+		display:block;
+		width:100%;	
+	}
+	
+	.latest-blog .post-item .inner-box .content-box{
+		padding:0px;
+	}
+	
+	.masonry-item.two-fifth{
+		width:50%;	
+	}
+	
+	.masonry-item.one-fifth{
+		width:25%;	
+	}
+	
+	.two-col-fluid .content-column{
+		padding-left:30px;	
+	}
+	
+	.masonry-item .content-box .desc{
+		display:none;	
+	}
+	
+	.intro-section.style-three .popped-column:before,
+	.intro-section.style-three .popped-column:after{
+		display:none;	
+	}
+	
+	.text-carousel .owl-dots{
+		text-align:left;	
+	}
+	
+	.intro-section .column img{
+		display:inline-block;
+		max-width:100%;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	
+	.main-menu .navigation > li{
+		margin-right:10px;
+	}
+	
+	.main-menu .navigation > li > a{
+		padding-left:7px;
+		padding-right:7px;	
+	}
+	
+	.locations-box{
+		height:300px;	
+	}
+	
+	.intro-section .services-column .inner-box {
+		padding: 30px 0 50px 20px !important;
+	}
+	
+	.styled-box::before{
+		display:none;	
+	}
+	
+	.two-col-fluid .content-column,
+	.two-col-fluid .image-column{
+		position:relative;
+		width:100%;
+		min-height:250px;	
+	}
+	
+	.page-title h1{
+		font-size:22px !important;	
+	}
+	
+	.sec-title h2,
+	.contact-style-one h2,
+	.tabs-box-one .tabs-content .tab h2,
+	.intro-section .popped-column h2,
+	.fact-counter .count-text{
+		font-size:24px;	
+	}
+	
+	.sec-title h2:before,
+	.sec-title h2:after{
+		display:none;	
+	}
+	
+	.sec-title.padd-left-70{
+		padding-left:0px !important;	
+	}
+	
+	.sec-title h2,
+	.sec-title .sec-text{
+		padding:0px !important;	
+	}
+	
+	.feat-image-section .image-column{
+		margin:40px 0px 0px;	
+	}
+	
+	.masonry-item.one-fifth{
+		width:50%;	
+	}
+	
+	
+}
+
+@media only screen and (max-width: 767px){
+	.main-menu{
+		display:none;
+   }
+   
+	.revolution-slider .tp-caption{
+		display:none !important;	
+	}
+	
+	.tabs-box-one .tab-buttons .tab-btn{
+		display:block;
+		width:100%;
+		border-right:none;
+		border-bottom:1px solid #e0e0e0;	
+	}
+	
+	.intro-section.style-two .popped-column .sec-header{
+		padding-right:10px;	
+	}
+	
+	.intro-section .popped-column .bigger-text{
+		font-size:14px;	
+	}
+	
+	.masonry-item.two-fifth{
+		width:100%;	
+	}
+	
+	.masonry-item.one-fifth{
+		width:50%;	
+	}
+	
+	.default-section .fact-counter{
+		margin-bottom:0px !important;	
+	}
+}
+
+@media only screen and (max-width: 599px){
+	
+	.sidebar-page .comments-area .comment,
+	.sidebar-page .comments-area .reply-comment,
+	.sidebar-page .about-author .author-desc{
+		padding-left:0px;
+		margin-left:0px;	
+	}
+	
+	.sidebar-page .comments-area .comment-box .author-thumb,
+	.sidebar-page .about-author .author-thumb{
+		position:relative;
+		left:0px;
+		margin-bottom:20px;	
+	}
+	
+	.masonry-item.one-fifth{
+		width:100%;	
+	}
+	
+	.search-popup .search-form fieldset input[type="search"]{
+		font-size:15px;
+		padding:10px 15px;
+		border-radius:0px;
+	}
+	
+	.search-popup .search-form fieldset input[type="submit"]{
+		position:relative;
+		width:100%;
+		border-radius:0px;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+	.page-wrapper{
+		overflow:hidden;	
+	}
+}
